@@ -8,7 +8,7 @@
   <h2>Guides</h2>
   {#each data.guides as guide}
   <p>
-    <a href="/">{guide.title}</a>
+    <a href={`/guides/${guide.id}`}>{guide.title}</a>
   </p>
 {/each}
 </div>
